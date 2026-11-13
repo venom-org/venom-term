@@ -1,0 +1,17 @@
+.{
+    .name = .venom_term,
+    .version = "0.0.0",
+    .fingerprint = 0x3cd4abc8ca026b50,
+    .minimum_zig_version = "0.17.0",
+    .dependencies = .{
+        .ghostty = .{
+            .url = "https://release.files.ghostty.org/libghostty-vt/1.0.0/libghostty-vt-1.0.0.tar.gz",
+            .hash = "ghostty-1.4.1-dev-5UdBC42jUAH6gFTaUyXGtolbhTf27EW0SZkK_lx5_fhQ",
+        },
+        .vaxis = .{
+            .url = "https://github.com/rockorager/libvaxis/archive/c1861acc835e42d6874f2b15744f472398fbdfb7.tar.gz",
+            .hash = "vaxis-0.6.0-BWNV_GQaDQAz9DPyb2245fA-MbFe1MtOMwVQ08z9-v50",
+        },
+    },
+    .paths = .{ "build.zig", "build.zig.zon", "src", "test/vt_only.zig", "test/chrome_only.zig", "test/pane_stream_only.zig", "test/bench.zig", "test/feed_bench.zig", "test/plain_bench.zig", "test/measure_idle.py", "test/consumer/build.zig", "test/consumer/build.zig.zon", "examples", "test/measure_panes.py", "README.md", "docs", ".zigversion" },
+}
