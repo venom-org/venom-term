@@ -1,0 +1,1 @@
+.{ .name = .consumer, .version = "0.0.0", .fingerprint = 0x705b37277b5da7ba, .minimum_zig_version = "0.17.0", .dependencies = .{ .venom_term = .{ .path = "../.." } }, .paths = .{ "build.zig", "build.zig.zon" } }
